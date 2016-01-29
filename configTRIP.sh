@@ -6,6 +6,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install oracle-java8-jdk
 
+# Fixes a bug in current Raspbian (as of Jan 2016)
+sudo chmod u+s /bin/ping
+
 sudo apt-get install libjpeg8-dev imagemagick libv4l-dev
 sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 
