@@ -16,6 +16,7 @@ cp runCam.sh ~
 cp stopCam.sh ~
 cp runTRIP.sh ~
 cp startvnc.sh ~
+cp clearvnc.sh ~
 
 cp mjpg-streamer-code-182.zip ~
 cd
