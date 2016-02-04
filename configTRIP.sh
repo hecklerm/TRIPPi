@@ -15,6 +15,7 @@ sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 cp runCam.sh ~
 cp stopCam.sh ~
 cp runTRIP.sh ~
+cp startvnc.sh ~
 
 cp mjpg-streamer-code-182.zip ~
 cd
